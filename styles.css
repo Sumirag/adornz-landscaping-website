@@ -1063,6 +1063,21 @@ ul {
     font-size: 1rem !important;
   }
 
+  .nav-cta:hover {
+    background-color: var(--sage-light) !important;
+    color: var(--deep-green) !important;
+    transform: translateY(-1px);
+  }
+
+  .navbar .nav-cta {
+    background-color: var(--deep-green);
+    color: var(--white) !important;
+  }
+
+  .navbar .nav-cta:hover {
+    background-color: #163022 !important;
+  }
+
   .hamburger {
     display: flex;
     z-index: 999;
